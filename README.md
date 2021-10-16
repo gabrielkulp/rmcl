@@ -146,7 +146,7 @@ program is run.  If rmcl detects that it is being run interactively, it
 will print instructions and prompt to user to input a new device token.
 Otherwise, it will throw a `rmcl.exceptions.AuthError`.  You must call
 `register_device(code)` with the code provided obtained from
-https://my.remarkable.com/connect/desktop.  Once obtained, the device
+https://my.remarkable.com/#desktop.  Once obtained, the device
 token is stored for future use.
 
 ## Comparison with rMapy
